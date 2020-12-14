@@ -1,0 +1,62 @@
+li{
+    list-style:none;
+    margin-bottom:10px;
+    text-align: left;
+  }
+  a{
+    color:white;
+
+  }
+
+.heading
+{
+  margin-top:0px;
+  background-color: #2985c5;
+  padding:5px;
+  margin-bottom:40px;
+}
+
+
+.jumbotron
+{
+  
+  
+  background-image:     linear-gradient(
+    to right,
+      rgba(0, 0, 0, .5), 
+      rgba(0, 0, 0, .5)
+
+    ), url("1.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  color:#fff;
+  font-weight: lighter;
+  height: 350px;
+  text-align: center;
+  width:100%;
+  margin-bottom: 0;
+}
+body
+{
+  
+  background-image:     linear-gradient(
+    to right,
+      rgba(0, 0, 0, .5), 
+      rgba(0, 0, 0, .5)
+
+    ), url("slide1-left.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  color:#fff;
+  font-weight: lighter;
+  height: 450px;
+  text-align: center;
+  width:100%;
+}
+
+footer
+{
+  background-color: #1b1b1b;
+}

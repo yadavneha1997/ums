@@ -1,0 +1,84 @@
+.jumbotron
+{
+	
+	
+	background-image:     linear-gradient(
+		to right,
+      rgba(0, 0, 0, .5), 
+      rgba(0, 0, 0, .5)
+
+    ), url("go-karts.gif");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	color:#fff;
+	font-weight: lighter;
+	height: 400px;
+	text-align: center;
+	width:100%;
+
+
+}
+body
+{
+		background-image:     linear-gradient(
+		to right,
+      rgba(0, 0, 0, .5), 
+      rgba(0, 0, 0, .5)
+
+    ), url("slide1-left.jpg");
+
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	color:#fff;
+	font-weight: lighter;
+	height: 450px;
+	text-align: center;
+	width:100%;
+
+}
+
+.heading
+{
+	margin-top:0px;
+	background-color: #2985c5;
+	padding:5px;
+}
+
+.logo
+{
+	margin:45px;
+	margin-bottom: 10px;
+	margin-top:30px;
+}
+
+footer
+{
+	background-color: #1b1b1b;
+	margin-top: 50px;
+}
+
+.pics
+{
+margin-top:20px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}

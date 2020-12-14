@@ -1,0 +1,60 @@
+.jumbotron
+{
+	
+	
+	background-image:     linear-gradient(
+		to right,
+      rgba(0, 0, 0, .5), 
+      rgba(0, 0, 0, .5)
+
+    ), url("contact-us-banner.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	color:#fff;
+	font-weight: lighter;
+	height: 310px;
+	text-align: center;
+	width:100%;
+
+}
+body
+{
+	
+	background-image:     linear-gradient(
+		to right,
+      rgba(0, 0, 0, .5), 
+      rgba(0, 0, 0, .5)
+
+    ), url("slide1-left.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	color:#fff;
+	font-weight: lighter;
+	height: 450px;
+	text-align: center;
+	width:100%;
+}
+
+footer
+{
+	background-color: #1b1b1b;
+	margin-top: 50px;
+}
+sm-form-control {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 2px solid #DDD;
+    border-radius: 0 !important;
+    -webkit-transition: border-color ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+}
